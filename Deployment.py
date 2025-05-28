@@ -7,7 +7,7 @@ st.title("Stellar Object Classifier App")
 st.markdown("This app predicts whether a celestial object is a **STAR**, **GALAXY**, or **QUASAR** based on input features.")
 
 # Load the saved model
-model = joblib.load(r"C:\Users\megha\Downloads\Capstone Project\Capstone Project 2.joblib")
+model = joblib.load(r"Capstone Project 2.joblib")
 
 # Input fields for user to provide feature values
 st.header("Enter Object Details:")
